@@ -1,0 +1,50 @@
+{
+  "kolcsonzo": {
+    "nev": "Budapest Autókölcsönző"
+  },
+  "autok": [
+    {
+      "tipus": "szemely",
+      "rendszam": "ABC-123",
+      "berleti_dij": 8000,
+      "elerheto": true,
+      "utasok_szama": 5
+    },
+    {
+      "tipus": "szemely",
+      "rendszam": "XYZ-456",
+      "berleti_dij": 12000,
+      "elerheto": false,
+      "utasok_szama": 7
+    },
+    {
+      "tipus": "teher",
+      "rendszam": "TRK-789",
+      "berleti_dij": 20000,
+      "elerheto": true,
+      "teherbiras": 3500
+    }
+  ],
+  "berlesek": [
+    {
+      "id": 1,
+      "auto_rendszam": "ABC-123",
+      "datum": "2026-06-05"
+    },
+    {
+      "id": 2,
+      "auto_rendszam": "ABC-123",
+      "datum": "2026-06-10"
+    },
+    {
+      "id": 3,
+      "auto_rendszam": "TRK-789",
+      "datum": "2026-06-07"
+    },
+    {
+      "id": 4,
+      "auto_rendszam": "TRK-789",
+      "datum": "2026-06-15"
+    }
+  ]
+}
